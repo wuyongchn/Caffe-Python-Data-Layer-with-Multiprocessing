@@ -1,2 +1,2 @@
 # Caffe-Python-Data-Layer-with-Multiprocessing
-Using multiprocessing method to make training caffe with a python data layer more time efficient
+Using multiprocessing method to make the training of a caffe net with a python data layer more time efficient
