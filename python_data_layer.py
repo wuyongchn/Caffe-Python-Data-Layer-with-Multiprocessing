@@ -104,7 +104,7 @@ class NetworkDataLoader(object):
                 transformed_im, label = self.load_next_image()
                 self._blob_im[itt, ...] = transformed_im
                 self._blob_label[itt, ...] = np.int32(label)
-            return self._blob_im, self._blob_id
+            return self._blob_im, self._blob_label
 
     def _shuffle_source_list(self):
         """Randomly Shuffle the training data"""
